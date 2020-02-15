@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="76dp"
+        android:text="CALCULATOR"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:textSize="30dp"
+         />
+
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:hint="Masukkan angka"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btn_sin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIN"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        />
+
+     <Button
+         android:id="@+id/btn_cos"
+         android:layout_width="90dp"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:hint="COS"
+         android:textSize="25dp"
+         android:layout_toRightOf="@id/btn_sin"
+         />
+
+    <Button
+        android:id="@+id/btn_tan"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:hint="TAN"
+        android:textSize="25dp"
+        android:layout_toRightOf="@id/btn_cos"
+        />
+
+        <Button
+            android:id="@+id/btn_csc"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:hint="CSC"
+            android:textSize="25dp"
+            />
+        <Button
+            android:id="@+id/btn_sec"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="10dp"
+            android:hint="SEC"
+            android:textSize="25dp"
+            android:layout_toRightOf="@id/btn_csc"
+            />
+
+        <Button
+            android:id="@+id/btn_cot"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="10dp"
+            android:hint="COT"
+            android:textSize="25dp"
+            android:layout_toRightOf="@id/btn_sec"
+            />
+
+        <Button
+            android:id="@+id/btn_log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:hint="LOGARITMA"
+            android:textSize="25dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_hasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0.0"
+            android:textSize="40sp"
+            android:layout_marginTop="250dp"
+            android:textAlignment="center"
+            />
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
